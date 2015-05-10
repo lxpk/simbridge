@@ -1,0 +1,86 @@
+fileFormatVersion: 2
+guid: e7f5fc275980f4e58bfc800074337d7f
+ModelImporter:
+  serializedVersion: 14
+  fileIDToRecycleName:
+    100000: Door1
+    100002: Group2
+    100004: Mesh3
+    100006: floorplanmap1
+    100008: Group1
+    100010: Mesh2
+    100012: //RootNode
+    100014: Mesh1
+    100016: Group3
+    400000: Door1
+    400002: Group2
+    400004: Mesh3
+    400006: floorplanmap1
+    400008: Group1
+    400010: Mesh2
+    400012: //RootNode
+    400014: Mesh1
+    400016: Group3
+    2300000: Mesh3
+    2300002: Mesh2
+    2300004: Mesh1
+    3300000: Mesh3
+    3300002: Mesh2
+    3300004: Mesh1
+    4300000: Mesh1
+    4300002: Mesh2
+    4300004: Mesh3
+    6400000: Mesh2
+    6400002: Mesh3
+    6400004: Mesh1
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 4
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    keepQuads: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animatorType: 0
+  genericAnimation: 0
+  userData: 

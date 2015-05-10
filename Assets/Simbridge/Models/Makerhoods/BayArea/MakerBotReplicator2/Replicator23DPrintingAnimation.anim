@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Replicator23DPrintingAnimation
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.00738525204, y: 0, z: -3.10924406e-08}
+        inSlope: {x: .205719098, y: 0, z: 0}
+        outSlope: {x: .205719098, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .0833333358
+        value: {x: .00975800678, y: 0, z: -3.10924406e-08}
+        inSlope: {x: -.231708527, y: 0, z: 0}
+        outSlope: {x: -.231708527, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .150000006
+        value: {x: -.0348510742, y: 0, z: -3.10924406e-08}
+        inSlope: {x: -.473224699, y: 0, z: 0}
+        outSlope: {x: -.473224699, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .233333334
+        value: {x: -.0579605103, y: 0, z: -3.10924406e-08}
+        inSlope: {x: -.277313262, y: 0, z: 0}
+        outSlope: {x: -.277313262, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Group_2_1/Mesh1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.81512405e-09, y: 0, z: -.00338363647}
+        inSlope: {x: 1.36017661e-07, y: 0, z: -.253555298}
+        outSlope: {x: 1.36017661e-07, y: 0, z: -.253555298}
+        tangentMode: -559038737
+      - time: .0833333358
+        value: {x: 1.31499291e-08, y: 0, z: -.0245132446}
+        inSlope: {x: 1.36017661e-07, y: 0, z: -.253555298}
+        outSlope: {x: 1.36017661e-07, y: 0, z: -.253555298}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Group_1_1/Mesh2
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Group_3_1/Mesh3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.81512405e-09, y: 0, z: -.00338363647}
+        inSlope: {x: 1.36017661e-07, y: 0, z: 0}
+        outSlope: {x: 1.36017661e-07, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Group_3_2/Mesh4
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 4
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00738525204
+        inSlope: .205719098
+        outSlope: .205719098
+        tangentMode: 10
+      - time: .0833333358
+        value: .00975800678
+        inSlope: -.231708527
+        outSlope: -.231708527
+        tangentMode: 10
+      - time: .150000006
+        value: -.0348510742
+        inSlope: -.473224699
+        outSlope: -.473224699
+        tangentMode: 10
+      - time: .233333334
+        value: -.0579605103
+        inSlope: -.277313262
+        outSlope: -.277313262
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Group_2_1/Mesh1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .0833333358
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .150000006
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .233333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Group_2_1/Mesh1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .233333334
+        value: -3.10924406e-08
+        inSlope: -1.48762425e-07
+        outSlope: -1.48762425e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Group_2_1/Mesh1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.81512405e-09
+        inSlope: 1.36017661e-07
+        outSlope: 1.36017661e-07
+        tangentMode: 10
+      - time: .0833333358
+        value: 1.31499291e-08
+        inSlope: 1.36017661e-07
+        outSlope: 1.36017661e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Group_1_1/Mesh2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .0833333358
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Group_1_1/Mesh2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00338363647
+        inSlope: -.253555298
+        outSlope: -.253555298
+        tangentMode: 10
+      - time: .0833333358
+        value: -.0245132446
+        inSlope: -.253555298
+        outSlope: -.253555298
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Group_1_1/Mesh2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Group_3_1/Mesh3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Group_3_1/Mesh3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Group_3_1/Mesh3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.81512405e-09
+        inSlope: 1.36017661e-07
+        outSlope: 1.36017661e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Group_3_2/Mesh4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Group_3_2/Mesh4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00338363647
+        inSlope: -.253555298
+        outSlope: -.253555298
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Group_3_2/Mesh4
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
