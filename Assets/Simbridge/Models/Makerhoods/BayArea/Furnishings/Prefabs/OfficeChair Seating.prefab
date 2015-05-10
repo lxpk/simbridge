@@ -205,6 +205,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &128228
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450776}
+  - 114: {fileID: 11446564}
+  m_Layer: 0
+  m_Name: chairStandTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &129206
 GameObject:
   m_ObjectHideFlags: 1
@@ -518,7 +534,6 @@ GameObject:
   - 23: {fileID: 2368168}
   - 114: {fileID: 11438012}
   - 114: {fileID: 11413500}
-  - 114: {fileID: 11401158}
   m_Layer: 0
   m_Name: Seating Chair
   m_TagString: Trigger
@@ -595,7 +610,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117140}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 6.10947552e-07}
-  m_LocalPosition: {x: -79.7227936, y: -16.1948376, z: -43.6216393}
+  m_LocalPosition: {x: .379837036, y: -.322999954, z: 1.41400909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 464266}
@@ -681,6 +696,18 @@ Transform:
   - {fileID: 458204}
   m_Father: {fileID: 490656}
   m_RootOrder: 0
+--- !u!4 &450776
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .369363815, y: .813312054, z: -.295470119}
+  m_LocalScale: {x: 1.91530859, y: 1.19488358, z: 1.69736195}
+  m_Children: []
+  m_Father: {fileID: 498100}
+  m_RootOrder: 1
 --- !u!4 &450996
 Transform:
   m_ObjectHideFlags: 1
@@ -989,6 +1016,7 @@ Transform:
   m_LocalScale: {x: .522109091, y: .836901605, z: .589149535}
   m_Children:
   - {fileID: 483204}
+  - {fileID: 450776}
   m_Father: {fileID: 422366}
   m_RootOrder: 1
 --- !u!4 &498212
@@ -1513,7 +1541,7 @@ MeshCollider:
   m_GameObject: {fileID: 149690}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300020, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1525,7 +1553,7 @@ MeshCollider:
   m_GameObject: {fileID: 174564}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300004, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1537,7 +1565,7 @@ MeshCollider:
   m_GameObject: {fileID: 118932}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300006, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1549,7 +1577,7 @@ MeshCollider:
   m_GameObject: {fileID: 188984}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300014, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1561,7 +1589,7 @@ MeshCollider:
   m_GameObject: {fileID: 144178}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300028, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1573,7 +1601,7 @@ MeshCollider:
   m_GameObject: {fileID: 116614}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300008, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1585,7 +1613,7 @@ MeshCollider:
   m_GameObject: {fileID: 167526}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300022, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1597,7 +1625,7 @@ MeshCollider:
   m_GameObject: {fileID: 139028}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300026, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1609,7 +1637,7 @@ MeshCollider:
   m_GameObject: {fileID: 104802}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300002, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1621,7 +1649,7 @@ MeshCollider:
   m_GameObject: {fileID: 177974}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300010, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1633,7 +1661,7 @@ MeshCollider:
   m_GameObject: {fileID: 191730}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300012, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1657,7 +1685,7 @@ MeshCollider:
   m_GameObject: {fileID: 176804}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300024, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1669,7 +1697,7 @@ MeshCollider:
   m_GameObject: {fileID: 163472}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300016, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1681,7 +1709,7 @@ MeshCollider:
   m_GameObject: {fileID: 156724}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 9624c66fd71f440c1ba320fec3e749e4, type: 3}
@@ -1711,30 +1739,6 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &11401158
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8634e062924929664361c08745211fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action: 6
-  on: 0
-  target: {fileID: 188906}
-  source: {fileID: 0}
-  triggerCount: 1
-  repeatTrigger: 1
-  triggerTagRequirement: Player
-  activateOnCollision: 0
-  activateOnShoot: 1
-  activateOnShootMessage: Stand
-  animationName: 
-  messageMethod: Stand
-  messageArgument: 
 --- !u!114 &11413500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1751,7 +1755,7 @@ MonoBehaviour:
   standingPosition: {x: 0, y: 0, z: 0}
   seatedPositionTransform: {fileID: 483204}
   sitTrigger: {fileID: 11438012}
-  standTrigger: {fileID: 11401158}
+  standTrigger: {fileID: 11446564}
 --- !u!114 &11438012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1766,15 +1770,39 @@ MonoBehaviour:
   action: 6
   on: 1
   target: {fileID: 188906}
-  source: {fileID: 0}
+  source: {fileID: 128228}
   triggerCount: 1
   repeatTrigger: 1
   triggerTagRequirement: Player
   activateOnCollision: 1
   activateOnShoot: 1
-  activateOnShootMessage: Sit
+  activateOnShootMessage: SIT
   animationName: 
   messageMethod: Sit
+  messageArgument: 
+--- !u!114 &11446564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8634e062924929664361c08745211fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action: 6
+  on: 0
+  target: {fileID: 188906}
+  source: {fileID: 0}
+  triggerCount: 1
+  repeatTrigger: 1
+  triggerTagRequirement: Player
+  activateOnCollision: 0
+  activateOnShoot: 1
+  activateOnShootMessage: STAND
+  animationName: 
+  messageMethod: Stand
   messageArgument: 
 --- !u!1001 &100100000
 Prefab:

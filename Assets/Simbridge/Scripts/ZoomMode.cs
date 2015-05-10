@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CHZoomMode : MonoBehaviour {
+public class ZoomMode : MonoBehaviour {
 
 	public bool clickToZoom = false;
 	public bool panWhileZoomed = false;

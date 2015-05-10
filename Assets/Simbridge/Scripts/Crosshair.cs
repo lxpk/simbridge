@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 /// <summary>
 ///  Crosshair allows you to point at objects that are interactable and customize the crosshair with sounds.
@@ -10,6 +11,7 @@ public class Crosshair : MonoBehaviour
     #region OBJECT REFERENCES
 
     public GameObject crosshairs;
+    public Text interactionText;
     public Texture2D standardCrosshairs;
     public Texture2D copyCodeCrosshair;
     public Texture2D accessibleObjectCrosshair;
@@ -63,17 +65,7 @@ public class Crosshair : MonoBehaviour
         GetComponent<AudioSource>().PlayOneShot(errorSound);
     }
 
-    private void OnGUI()
-    {
-        if (triggerMessage != "")
-        {
-            GUILayout.BeginArea(new Rect(Screen.width / 2 - 150, Screen.height / 2.5f, 300, 100));
-            {
-                GUILayout.Label("<color=yellow><size=32>" + triggerMessage + "</size></color>");
-            }
-            GUILayout.EndArea();
-        }
-    }
+    
 
     public GameObject targetObject;
     public GameObject lastTargetObject;
@@ -128,6 +120,15 @@ public class Crosshair : MonoBehaviour
                 }
             }
         }
+
+        if (triggerMessage != "")
+        {
+            interactionText.text = triggerMessage;
+        }
+        else
+        {
+            interactionText.text = "";
+        }
     }
 
     /// <summary>
@@ -136,6 +137,6 @@ public class Crosshair : MonoBehaviour
     /// <param name="crosshairTexture"></param>
     void SwapCrosshairs(Texture2D crosshairTexture)
     {
-        crosshairs.GetComponent<Renderer>().material.mainTexture = crosshairTexture;
+        crosshairs.GetComponent<RawImage>().texture = crosshairTexture;
     }
 }
