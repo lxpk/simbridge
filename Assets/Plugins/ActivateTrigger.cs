@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class ActivateTrigger : MonoBehaviour {
+public class ActivateTrigger : MonoBehaviour 
+{
 	public enum Mode {
 		Trigger   = 0, // Just broadcast the action on to the target
 		Replace   = 1, // replace target with source
@@ -8,7 +9,8 @@ public class ActivateTrigger : MonoBehaviour {
 		Enable    = 3, // Enable a component
 		Animate   = 4, // Start animation on target
 		Deactivate= 5, // Decativate target GameObject
-		Message   = 6	// Send a message to the target
+		Message   = 6, // Send a message to the target
+		URL 	  = 7, // Open a web page
 	}
 
 	/// The action to accomplish
@@ -27,6 +29,7 @@ public class ActivateTrigger : MonoBehaviour {
 	public string animationName ="";
 	public string messageMethod = "DoActivateTrigger";
 	public string messageArgument = "";
+	public string url;
 	public void Shoot()
 	{
 		if(activateOnShoot)
@@ -34,7 +37,8 @@ public class ActivateTrigger : MonoBehaviour {
 			DoActivateTrigger();
 		}
 	}
-	public void DoActivateTrigger () {
+	public void DoActivateTrigger () 
+	{
 		if(on)
 		{
 			triggerCount--;
@@ -48,6 +52,7 @@ public class ActivateTrigger : MonoBehaviour {
 			
 				switch (action) {
 					case Mode.Trigger:
+						
 						targetGameObject.BroadcastMessage ("DoActivateTrigger");
 						break;
 					case Mode.Replace:
@@ -69,10 +74,20 @@ public class ActivateTrigger : MonoBehaviour {
 					case Mode.Deactivate:
 						targetGameObject.active = false;
 						break;
+				case Mode.URL:
+					Application.OpenURL(url);
+					break;
 					case Mode.Message:
 						if(messageArgument != "")
 						{
-							targetGameObject.SendMessage(messageMethod);
+							if(targetBehaviour!=null)
+							{
+								targetBehaviour.SendMessage(messageMethod);
+							}
+							else
+							{
+								targetGameObject.SendMessage(messageMethod);
+							}
 						}
 						else
 						{
@@ -86,9 +101,12 @@ public class ActivateTrigger : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other) 
 	{
-		if (other.tag == triggerTagRequirement)
+		if (activateOnCollision)
 		{
-			DoActivateTrigger ();
+			if (triggerTagRequirement == "" || other.tag == triggerTagRequirement)
+			{
+				DoActivateTrigger ();
+			}
 		}
 	}
 }

@@ -1209,7 +1209,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
@@ -1282,7 +1282,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
@@ -1774,7 +1774,7 @@ MonoBehaviour:
   triggerCount: 1
   repeatTrigger: 1
   triggerTagRequirement: Player
-  activateOnCollision: 1
+  activateOnCollision: 0
   activateOnShoot: 1
   activateOnShootMessage: SIT
   animationName: 

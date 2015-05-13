@@ -17,10 +17,12 @@ public class Seating : MonoBehaviour {
 		player.transform.position = seatedPositionTransform.position;
 		sitTrigger.on = false;
 		standTrigger.on = true;
+		player.GetComponent<CharacterController>().enabled=false;
 	}
 
 	public void Stand()
 	{
+		player.GetComponent<CharacterController>().enabled=true;
 		seated = false;
 		player.transform.position = standingPosition;
 		sitTrigger.on = true;

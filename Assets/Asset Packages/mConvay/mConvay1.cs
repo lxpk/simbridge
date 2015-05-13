@@ -51,7 +51,8 @@ public class mConvay1 : MonoBehaviour
 		sx = width;  
 		sy = height;  
 		size = width*height;
-		
+
+
 		// Set random cells to 'on'   
 		for (int i = 0; i < sx * sy * density; i++) 
 		{
