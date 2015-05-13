@@ -84,7 +84,14 @@ public class Crosshair : MonoBehaviour
             ActivateTrigger aTrigger = rayHit.transform.gameObject.GetComponent<ActivateTrigger>();
             if ( aTrigger != null )
             {
-                SwapCrosshairs(interactCrosshair);
+				if(interactCrosshair!=null)
+				{
+                	SwapCrosshairs(interactCrosshair);
+				}
+				else
+				{
+					crosshairs.GetComponent<RawImage>().texture=null;
+				}
                 targetObject = rayHit.transform.gameObject;
                 triggerMessage = aTrigger.activateOnShootMessage;
                 if (lastTargetObject == null || targetObject != lastTargetObject)
